@@ -12,7 +12,7 @@ public class RomanToArabicConverter {
     // finishes it cannot read anything:
     // is going to trigger that exception)
 
-    public int convertRomanToArabic(String romanNumber) {
+    public int convertRomanToArabic(final String romanNumber) {
         if (romanNumber.length() == 1) {
             switch (romanNumber) {
                 case "M":
