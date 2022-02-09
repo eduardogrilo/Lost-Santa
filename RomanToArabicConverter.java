@@ -108,5 +108,6 @@ public class RomanToArabicConverter {
         rta.sum = 0;
         System.out.printf("%n");
         System.out.print("Conversion result to roman: " + rta.convertRomanToArabic("MMMCMLXXXIX")); // 3989
+        System.out.printf("%n");
     }
 }
